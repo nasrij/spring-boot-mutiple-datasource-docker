@@ -51,32 +51,32 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--&lt;!&ndash; Spock (A Groovy based testframework running on top of the JUnit runner)  &ndash;&gt;-->
-		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.spockframework/spock-core &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.spockframework</groupId>-->
-			<!--<artifactId>spock-core</artifactId>-->
-			<!--<version>1.1-groovy-2.4</version>-->
-			<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<!-- Spock (A Groovy based testframework running on top of the JUnit runner)  -->
+		<!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
+		<dependency>
+			<groupId>org.spockframework</groupId>
+			<artifactId>spock-core</artifactId>
+			<version>1.1-groovy-2.4</version>
+			<scope>test</scope>
+		</dependency>
 
-		<!--&lt;!&ndash; Spock-Spring: Use the Spring TestContext framework together with Spock for Integration Tests &ndash;&gt;-->
-		<!--&lt;!&ndash; https://mvnrepository.com/artifact/org.spockframework/spock-spring &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.spockframework</groupId>-->
-			<!--<artifactId>spock-spring</artifactId>-->
-			<!--<version>1.1-groovy-2.4</version>-->
-			<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<!-- Spock-Spring: Use the Spring TestContext framework together with Spock for Integration Tests -->
+		<!-- https://mvnrepository.com/artifact/org.spockframework/spock-spring -->
+		<dependency>
+			<groupId>org.spockframework</groupId>
+			<artifactId>spock-spring</artifactId>
+			<version>1.1-groovy-2.4</version>
+			<scope>test</scope>
+		</dependency>
 
-		<!--&lt;!&ndash; Specific Groovy version for using Spock (needed by the Maven Plugins) &ndash;&gt;-->
-		<!--&lt;!&ndash; Use a specific Groovy version rather than the one specified by spock-core &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.codehaus.groovy</groupId>-->
-			<!--<artifactId>groovy-all</artifactId>-->
-			<!--<version>2.4.10</version> &lt;!&ndash; 2.4.11 didn't work for me &ndash;&gt;-->
-			<!--<scope>test</scope>-->
-		<!--</dependency>-->
+		<!-- Specific Groovy version for using Spock (needed by the Maven Plugins) -->
+		<!-- Use a specific Groovy version rather than the one specified by spock-core -->
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.4.10</version> <!-- 2.4.11 didn't work for me -->
+			<scope>test</scope>
+		</dependency>
 
 		<!-- H2 In-Memory Database JDBC driver for tests -->
 		<dependency>
