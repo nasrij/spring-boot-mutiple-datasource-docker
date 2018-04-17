@@ -36,4 +36,4 @@ You can check the log by
 docker logs multi-datasource-docker
 ~~~
 
-Open http://localhost:9999/bar/all in browser and you should see an empty array. you can add new Bars and new Foos.
+Open http://localhost:8080/bar/all in browser and you should see an empty array. you can add new Bars and new Foos.
